@@ -13,9 +13,10 @@
     <?php include('include/js.php'); ?>
   </head>
 	<body>
-<div class="container contain-nar">
-<div style="height:250px;">
-<h1>
+<div class="col-sm-12">
+<h1>Dear Mom and Dad,</h1>
+<div class="col-sm-10">
+<h2 class="memory-tx">
 <script LANGUAGE="Javascript"><!--
 
 // ***********************************************
@@ -45,12 +46,10 @@ increment = Math.floor(Math.random() * number);
 document.write(text[increment]);
 
 </script>
-</h1>
-</div> 
-<footer style="padding-top:60px;">
-<h2>Dear Mom and Dad,</h2>
-
-<p>I wanted to share these glimpses of the past, our family's past with you.  I wanted you to know that these moments mattered to me.  That they matter.  When you refresh the page, a new fragment will appear.  I hope to keep adding to this, to keep building on to what I have collected so far.  These memories, triggered by a smell or the quality of the air, linger for me.  They persevere, and I am thankful for that.  For in them, we are together.</p>
+</h2>
+</div>
+<div class="footer">
+<p>We wanted to share these glimpses of the past, our family's past with you.  We wanted you to know that these moments mattered.  That they matter.  When you refresh the page, a new fragment will appear.  We hope to keep adding to this, to keep building on to what we have collected so far.  These memories, often triggered by a smell or the quality of the air, linger for us.  They persevere, and we am thankful for that.  For in them, we are together.</p>
 
 </footer>
 </div>
