@@ -11,7 +11,7 @@ body {
   max-width: 920px;
 }
 
-/* sticky footer styles
+/* to make footer sticky
 -------------------------------------------------- */
 
 html,
@@ -23,12 +23,12 @@ body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -120px;
-  padding: 0 0 120px;
+  margin: 0 auto -80px;
+  padding: 0 0 80px;
 }
 
 #footer {
-  height: 120px;
+  height: 80px;
   background-color: #fff;
 }
 
@@ -49,18 +49,34 @@ body {
   }
 }
 
+
+/* footer stylez
+-------------------------------------------------- */
+
+#footer a:hover {
+  text-decoration: none;
+}
+
+.footer-links {
+  margin: 16px 0 8px 0;
+  padding-left: 0;
+}
+
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+
 /* misc styles
 -------------------------------------------------- */
 
 h1 {
   font-family: 'Ovo', serif;
-}
-
-#footer p {
-  font-size:16px;
-	line-height:20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .my-nav >li >a {
