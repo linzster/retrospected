@@ -1,0 +1,15 @@
+body {
+	background-image:url(../img/subtle_white_feathers.png);
+	height:100%;
+}
+
+.contain-nar {
+	width: 800px;
+	padding-top:120px;
+}
+
+.my-nav >li >a{
+	color:#5a5a5a;
+}
+
+

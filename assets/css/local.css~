@@ -1,0 +1,17 @@
+body {
+	background-image:url(../img/light_wool.png);
+	height:100%;
+}
+
+.contain-nar {
+	width: 600px;
+	padding-top:40px;
+}
+
+.my-nav >li >a{
+	color:#5a5a5a;
+}
+
+.my-footer {
+	padding-top:40px;
+}
