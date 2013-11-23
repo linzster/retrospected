@@ -1,0 +1,32 @@
+body {
+	background-image:url(../img/subtle_white_feathers.png);
+	height:100%;
+	font-family: 'Ovo', serif;
+}
+
+h1 {
+  font-family: 'Ovo', serif;
+}
+
+p.footer {
+  font-size:16px;
+	line-height:20px;
+}
+
+.my-nav >li >a {
+  color:#5a5a5a;
+}
+
+.memory {
+  float:right;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-left: 20px;
+  min-height: 1px;
+  padding-top: 30px;
+  padding-bottom:60px;
+}
+
+
