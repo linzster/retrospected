@@ -1,16 +1,66 @@
+/* big, global stuff
+-------------------------------------------------- */
+
 body {
-	background-image:url(../img/subtle_white_feathers.png);
-	height:100%;
-	font-family: 'Ovo', serif;
+  background-image:url(../img/subtle_white_feathers.png);
+  font-family: 'Ovo', serif;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 920px;
+}
+
+/* sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -120px;
+  padding: 0 0 120px;
+}
+
+#footer {
+  height: 120px;
+  background-color: #fff;
+}
+
+#wrap > .container {
+  padding: 25px 0;
+}
+.container .credit {
+  margin: 6px 0;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #footer {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* misc styles
+-------------------------------------------------- */
 
 h1 {
   font-family: 'Ovo', serif;
 }
 
-p.footer {
+#footer p {
   font-size:16px;
 	line-height:20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .my-nav >li >a {
