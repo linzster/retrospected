@@ -2,3 +2,4 @@
 <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="./assets/css/memory.css">
+<link rel="stylesheet" href="./assets/css/jquery.pageslide.css">

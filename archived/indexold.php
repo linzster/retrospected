@@ -26,28 +26,32 @@
   <div id="footer">
     <div class="container">
       <ul class="footer-links text-center">
-        <li><a href="#modal" class="second">About this →</a></li>
+        <li><a data-toggle="modal" href="#aboutInfo">About this →</a></li>
       </ul>
-      <h3 class="text-muted credit"><i class="icon-heart-empty"></i>, Linz and Bren</h3>
+      <p class="text-muted credit"><i class="icon-heart-empty"></i>, Linz and Bren</p>
     </div>
   </div>
 
   <!-- modal -->
-<div id="modal" style="display:none">
-    <h2>We love you, and...</h2>
-    <p>we wanted to share these glimpses of the past, our family's past with you.  We wanted you to know that these 
+  <div class="modal fade" id="aboutInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">We love you, and...</h4>
+        </div>
+        <div class="modal-body">
+          <p>We wanted to share these glimpses of the past, our family's past with you.  We wanted you to know that these 
                 moments mattered.  That they matter.  When you refresh the page, a new fragment will appear.  We hope to 
                 keep adding to this, to keep building on to what we have collected so far.  These memories, often triggered 
                 by a smell or the quality of the air, linger for us.  They persevere, and we am thankful for that.  For in 
                 them, we are together.</p>
-    <a href="javascript:$.pageslide.close()">Close</a>
-</div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
   <!-- trigger memory randomizer -->
   <script src="assets/js/memoryRandomizer.js"></script>
-  <script src="assets/js/jquery.pageslide.min.js"></script>
-  <script>
-    $(".second").pageslide({ direction: "left", modal: true });
-</script>
 </body>
 </html>
