@@ -24,4 +24,10 @@ $( document ).ready(function() {
   // add to page
   $(".memory").text(memories[rando]);
 
+if (!localStorage.pageCounter) {
+  localStorage.setItem('pageCounter',0);
+}
+localStorage.setItem('pageCounter',parseInt(localStorage.pageCounter)+1);
+console.log(localStorage.pageCounter);
+
 });

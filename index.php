@@ -13,6 +13,13 @@
   <!-- wrapping all page content (to facilitate sticky footer) -->
   <div id="wrap">
 
+    <!-- static navbar -->
+    <div class="navbar navbar-default">
+      <a class="navbar-brand" href="/"><i class="icon-pencil"></i> Retrospected </a>
+      <p class="navbar-text author-line hidden-xs">Designed and built with <i class="icon-heart-empty"></i> by Linz & Bren</p>
+      <a class="navbar-text pull-right second" href="#modal">Learn more →</a>
+    </div>
+
     <div class='container'>
       <h1>Dear Mom and Dad,</h1>
       <div class='memories'>
@@ -24,11 +31,8 @@
 
   <!-- footer -->
   <div id="footer">
-    <div class="container">
-      <ul class="footer-links text-center">
-        <li><a href="#modal" class="second">About this →</a></li>
-      </ul>
-      <h3 class="text-muted credit"><i class="icon-heart-empty"></i>, Linz and Bren</h3>
+    <div class="container text-center">
+      <a class='refresh' href="/">View another memory</a>
     </div>
   </div>
 
@@ -40,7 +44,7 @@
                 keep adding to this, to keep building on to what we have collected so far.  These memories, often triggered 
                 by a smell or the quality of the air, linger for us.  They persevere, and we am thankful for that.  For in 
                 them, we are together.</p>
-    <a href="javascript:$.pageslide.close()">Close</a>
+    <a class='btn btn-default btn-primary' href="javascript:$.pageslide.close()">Close</a>
 </div>
 
   <!-- trigger memory randomizer -->
