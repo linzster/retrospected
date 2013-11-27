@@ -31,3 +31,5 @@ localStorage.setItem('pageCounter',parseInt(localStorage.pageCounter)+1);
 console.log(localStorage.pageCounter);
 
 });
+
+
