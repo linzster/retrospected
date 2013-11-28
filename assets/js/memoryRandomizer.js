@@ -1,4 +1,8 @@
-$( document ).ready(function() {
+$(document).ready(function() {
+
+  // random color for background 
+  var colors = ["#914ad3","#d34a8c","#0080FF","#4ad391", "#34495e", "#fb887c"];
+  var rand_color = Math.floor(Math.random() * colors.length);
 
   // storing memories in an array
   var memories = [];
@@ -18,18 +22,18 @@ $( document ).ready(function() {
   // keep adding items here...
 
   // compute total number of memories and pick random number from within
-  var number = memories.length;
-  var rando = Math.floor(Math.random() * number);
+  var total = memories.length;
+  var rand_mem = Math.floor(Math.random() * total);
 
-  // add to page
-  $(".memory").text(memories[rando]);
+  // add random memory and background color to page
+  $(".memory").text(memories[rand_mem]);
+  $('body').css("background", colors[rand_color]);
 
-if (!localStorage.pageCounter) {
-  localStorage.setItem('pageCounter',0);
-}
-localStorage.setItem('pageCounter',parseInt(localStorage.pageCounter)+1);
-console.log(localStorage.pageCounter);
+  // // localstore stuff (TODO: UPDATE!)
+  // if (!localStorage.pageCounter) {
+  //   localStorage.setItem('pageCounter',0);
+  // }
+  // localStorage.setItem('pageCounter',parseInt(localStorage.pageCounter)+1);
+  // console.log(localStorage.pageCounter);
 
 });
-
-

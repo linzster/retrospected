@@ -1,11 +1,13 @@
 /* big, global stuff
 -------------------------------------------------- */
 
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
-  /*background-image:url(../img/subtle_white_feathers.png);*/
   background: #4ad391;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -92,10 +94,6 @@ body {
 /* misc styles
 -------------------------------------------------- */
 
-h1 {
-  font-family: 'Arvo', serif;
-}
-
 .my-nav >li >a {
   color:#5a5a5a;
 }
@@ -112,4 +110,7 @@ h1 {
   padding-bottom:60px;
 }
 
-
+/* setting initial state of slider so text doesn't appear */
+#slider-info {
+  display: none;
+}
