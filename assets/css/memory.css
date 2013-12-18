@@ -114,4 +114,7 @@ body {
 /* setting initial state of slider so text doesn't appear */
 #slider-info {
   display: none;
+  font-size: 18px;
+  line-height: 22px;
+  
 }
