@@ -34,22 +34,30 @@ $(document).ready(function() {
     var rand_mem = Math.floor(Math.random() * total);
 
     // add random memory and background color to page
-    $(".memory").text(memories[rand_mem]);
     $('body').css("background", colors[rand_color]);
 
-    // // localstore stuff (TODO: UPDATE!)
-    // if (!localStorage.pageCounter) {
-    //   localStorage.setItem('pageCounter',0);
-    // }
-    // localStorage.setItem('pageCounter',parseInt(localStorage.pageCounter)+1);
-    // console.log(localStorage.pageCounter);
+    // // add new memory (old way)
+    // $(".memory").text(memories[rand_mem]);
+
+    // add new memory (new way)
+    $(".memory").fadeOut(function() {
+      $(this).text(memories[rand_mem])
+    }).fadeIn();
 
   }
 
-  // initial memory on page load
-  getRandomMemory();
-
   // generate and display new memory on click
   $('.refresh').click(function() { getRandomMemory(); });
+
+  // // initial memory on page load
+  // getRandomMemory();
+
+    setTimeout(function(){
+        $('#momdad').addClass('animate');
+    }, 3000);
+
+    setTimeout(function(){
+        getRandomMemory();
+    }, 4000);
 
 });

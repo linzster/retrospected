@@ -138,3 +138,29 @@ body {
     text-decoration: none;
     border-bottom: 1px solid #fff;
 }
+
+
+/* for text transformations
+-------------------------------------------------- */
+
+.momdad-holder {
+  position: relative;
+}
+
+#momdad {
+    position: absolute;
+    left: 30%;
+    top: 200px;
+    width: 40%;
+    font-size: 40px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+#momdad.animate {
+  left: 0px;
+  top: 0px;
+  font-size: 24px;
+}
