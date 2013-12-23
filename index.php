@@ -31,13 +31,18 @@
       <h3>We love you, and...</h3>
       <p>
         we wanted to share these glimpses of the past, our family's past with you. We wanted you to know that these 
-        moments mattered. That they matter. When you refresh the page, a new fragment will appear. We hope to 
-        keep adding to this, to keep building on to what we have collected so far.</p>
+        moments mattered. That they matter.</p>
+      <p>
+	When you refresh the page, a new fragment will appear. We hope to 
+        keep adding to this, to keep building on what we have collected so far.</p>
       <p>
         These memories, often triggered by a smell or the quality of the air, linger for us. They persevere, and we are thankful for that. In them, we are together.
       </p>
-      <button type="button" class="btn btn-default close-slider">Close</button>
+      <div class="centered">
+      <button type="button" class="btn btn-link close-slider">Close</button>
+      </div>
     </div>
+     
 
   </div> <!-- /wrap -->
 

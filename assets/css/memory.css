@@ -114,7 +114,27 @@ body {
 /* setting initial state of slider so text doesn't appear */
 #slider-info {
   display: none;
-  font-size: 18px;
-  line-height: 22px;
-  
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.centered
+{
+    text-align:center;
+    padding-top:10px;
+}
+
+.close-slider {
+    padding:0;
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.close-slider:hover {
+    padding:0;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
 }
