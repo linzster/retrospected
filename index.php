@@ -20,7 +20,9 @@
     </div>
 
     <div class='container'>
-      <h1>Dear Mom and Dad,</h1>
+      <div class='momdad-holder'>
+        <h1 id='momdad'>Dear Mom and Dad,</h1>
+      </div>
       <div class='memories'>
         <h2 class="memory"></h2>
       </div>
@@ -33,7 +35,7 @@
         we wanted to share these glimpses of the past, our family's past with you. We wanted you to know that these 
         moments mattered. That they matter.</p>
       <p>
-	When you refresh the page, a new fragment will appear. We hope to 
+  When you refresh the page, a new fragment will appear. We hope to 
         keep adding to this, to keep building on what we have collected so far.</p>
       <p>
         These memories, often triggered by a smell or the quality of the air, linger for us. They persevere, and we are thankful for that. In them, we are together.
@@ -49,7 +51,7 @@
   <!-- footer -->
   <div id="footer">
     <div class="container text-center">
-      <a class='refresh' href="#">And this...</a>
+      <a class='refresh' href="#">Get started.</a>
     </div>
   </div>
 
