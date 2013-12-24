@@ -165,3 +165,6 @@ body {
   top: 0px;
   font-size: 32px;
 }
+
+#momdad.animate:after {
+   content: ",";

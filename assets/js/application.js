@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+$('body').css("background-color", '#343434');
+
   function getRandomMemory() {
 
     // random color for background 
@@ -29,7 +31,7 @@ $(document).ready(function() {
 
   $('.refresh').click(function() {
     var link = $(this);
-    if (link.text() == 'Get started.') {
+    if (link.text() == 'We want to tell you this...') {
       $('#momdad').addClass('animate');
       setTimeout(function() {
           getStarted();
