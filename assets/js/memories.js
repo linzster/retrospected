@@ -18,3 +18,7 @@ memories.push("Weekend mornings riding downtown to basketball at Reizenstein.  T
 memories.push("Turn-signal on, lights off, police car turning towards and I almost side-swipe a car.  You yelling: 'Stop the car.  Just stop the car!'  So I did.  In the middle of the road.  But I drove the rest of the way home, knuckles white.  Cautious.  Terrified.");
 memories.push("Graduation party and a human fly wall in our driveway.  All night, we jumped against the wall, got stuck, and wrestled free.  We do that now: jump, stick, wrestle free.  Sometimes we hurdle the wall, and sometimes we need help getting down.");
 memories.push("It doesn't get any better than this.");
+memories.push("The score, the team, my shot: different every game.  You in the stands: always.");
+memories.push("We pile onto the stairs in our santa hats and pajamas.  We smile for pictures though we want to move on to our stockings, the brightly wrapped presents.  But we stay on the stairs together, the magic of Christmas full and sweet.");
+memories.push("Uno!");
+memories.push("Bread!");
