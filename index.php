@@ -40,9 +40,7 @@
       <p>
         These memories, often triggered by a smell or the quality of the air, linger for us. They persevere, and we are thankful for that. In them, we are together.
       </p>
-      <div class="centered">
       <button type="button" class="btn btn-link close-slider">Close</button>
-      </div>
     </div>
      
 

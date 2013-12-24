@@ -7,7 +7,7 @@ $(document).ready(function() {
   function getRandomMemory() {
 
     // random color for background 
-    var colors = ["#914ad3","#d34a8c","#0080FF","#4ad391", "#34495e", "#fb887c"];
+    var colors = ["#914ad3","#ff0080","#0080FF","#4ad391", "#34495e", "#fb887c", "#7f8c8d", "#ff1300", "#343434"];
     var rand_color = Math.floor(Math.random() * colors.length);
 
     // compute total number of memories and pick random number from within
