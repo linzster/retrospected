@@ -22,3 +22,13 @@ memories.push("The score, the team, my shot: different every game.  You in the s
 memories.push("We pile onto the stairs in our santa hats and pajamas.  We smile for pictures though we want to move on to our stockings, the brightly wrapped presents.  But we stay on the stairs together, the magic of Christmas full and sweet.");
 memories.push("Uno!");
 memories.push("Bread!");
+memories.push("Walking down to the neighbor's garage to give Dad his new Mustang. Then convincing him it wasn't a rental.");
+memories.push("Walks around the neighborhood with Chestnut, Aubrey, and Milo.");
+memories.push("The best surprise 18th birthday party at Spotswood Pool.");
+memories.push("Playing Uno on New Year's Eve, and trying to keep Mom awake :)");
+memories.push("Hilton Head vacations! The bike rides, the beach walks, the mini golf, Greg Russell.");
+memories.push("Getting the best block letter birthday signs ever.");
+memories.push("Coffee and breakfast from Panera on weekends.");
+memories.push("Loading up on bulk candy before Camp Kon-O-Kwee weeks.");
+memories.push("Shooting hoops and epic games of 1-on-1 in the driveway.");
+memories.push("Watching Dad turn a rough slab of writing stone into a beautiful, polished gem, the night before a deadline.");
