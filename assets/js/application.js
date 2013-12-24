@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-$('body').css("background-color", '#343434');
-
   function getRandomMemory() {
 
     // random color for background 
