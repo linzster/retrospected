@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 body {
-  background-color: #4ad391;
+  background-color: #343434;
   color: #fff;
 }
 
@@ -89,17 +89,22 @@ body {
 /* footer stylez
 -------------------------------------------------- */
 
-#footer .refresh, #footer .get-started {
+#footer .refresh {
   font-weight: 300;
   color: #fff;
   border-bottom: 1px dotted #fff;
   font-size:14px;
 }
 
-#footer .refresh:hover, #footer .get-started:hover {
+#footer .refresh:hover {
   text-decoration: none;
   border-bottom: 1px solid #fff;
 }
+
+#footer .refresh:focus {
+  text-decoration: none;
+}
+
 
 /* misc styles
 -------------------------------------------------- */
@@ -150,18 +155,39 @@ body {
 
 #momdad {
     position: absolute;
-    left: 25%;
     top: 100px;
+    left: 26%;
     width: 50%;
-    font-size: 48px;
-    -webkit-transition: 1s ease-in-out;
-    -moz-transition: 1s ease-in-out;
-    -o-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
+    font-size: 50px;
 }
 
 #momdad.animate {
   left: 0px;
   top: 0px;
+  width: 100%;
   font-size: 32px;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+
 }
+
+#momdad.animate:after {
+   content: ",";
+}
+
+
+/*
+
+TODO: add this in!
+
+@media (min-width: 768px) {
+  #momdad {
+    left: 25%;
+    width: 50%;
+    font-size: 50px;
+  }  
+}
+
+*/

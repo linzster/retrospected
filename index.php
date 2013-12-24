@@ -16,12 +16,12 @@
     <div class="navbar navbar-default">
       <a class="navbar-brand refresh" href="#"><i class="icon-pencil"></i> Retrospected </a>
       <p class="navbar-text author-line hidden-xs">Designed and built with <i class="icon-heart-empty"></i> by Linz & Bren</p>
-      <a class="navbar-text pull-right open-slider" href="#slider-info">Learn more →</a>
+      <a class="navbar-text pull-right open-slider" href="#slider-info">This is why →</a>
     </div>
 
     <div class='container'>
       <div class='momdad-holder'>
-        <h1 id='momdad'>Dear Mom and Dad,</h1>
+        <h1 id='momdad'>Dear Mom and Dad</h1>
       </div>
       <div class='memories'>
         <h2 class="memory"></h2>
@@ -51,7 +51,7 @@
   <!-- footer -->
   <div id="footer">
     <div class="container text-center">
-      <a class='refresh' href="#">Get started.</a>
+      <a class='refresh' href="#">We want to tell you this...</a>
     </div>
   </div>
 

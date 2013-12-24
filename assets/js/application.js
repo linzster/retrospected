@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  // TODO: clean this up
+  var $title = $('#momdad');
+  $title.css('font-size', Math.max(Math.min($title.width() / (9.2), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY)));
+
   function getRandomMemory() {
 
     // random color for background 
@@ -29,8 +33,10 @@ $(document).ready(function() {
 
   $('.refresh').click(function() {
     var link = $(this);
-    if (link.text() == 'Get started.') {
+    if (link.text() == 'We want to tell you this...') {
       $('#momdad').addClass('animate');
+      $title.removeAttr('style');
+
       setTimeout(function() {
           getStarted();
       }, 1000);
